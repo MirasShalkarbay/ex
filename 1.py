@@ -36,3 +36,17 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 result = filter_prime(numbers)
 
 print(result)
+
+
+fsdkjfhlweuhfiu
+dofhsijdhfouihdf
+sdofhjsiudhfiusdhf
+sdhfuishdfyg
+
+def imdb_more_than_5_2(movie):
+    return movie.get("imdb", 0) > 5.5
+
+list = [movie for movie in movies if imdb_more_than_5_2(movie)]
+
+for movie in list:
+    print(f"{movie['name']} {movie['imdb'] } {movie['category']}")
